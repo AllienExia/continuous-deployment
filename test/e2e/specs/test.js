@@ -11,7 +11,7 @@ module.exports = {
     browser
       .url(devServer)
       .waitForElementVisible('body', 50000)
-      .assert.containsText('h1', 'Welcome to Your Vue.js App')
+      .assert.containsText('#toto', 'toto')
       .end()
   }
 }
